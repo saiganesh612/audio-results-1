@@ -1,11 +1,13 @@
 import { SoligaPaths, LambaniPaths } from "./path"
+import Transcript from "./Transcript"
 
 const DisplayFiles = ({ src }) => {
     const data = src === "soliga" ? SoligaPaths : LambaniPaths
 
     return (
         <>
-            <br />
+            <h2>{src === "soliga" ? "Soliga TTS Results" : "Lambani TTS Results"}</h2>
+            <Transcript src={src} />
             <div className="row">
                 <div className="col">
                     <h3>Original</h3>
