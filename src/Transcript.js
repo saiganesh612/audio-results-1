@@ -13,12 +13,12 @@ const Transcript = ({ src }) => {
             </div>
             {
                 transcripts.map((transcript, index) =>
-                    <div className="my-2">
-                        <p key={index} className="m-1">{transcript}</p>
+                    <div className="mt-4" key={index}>
+                        <p style={{ fontSize: "1.4em", fontWeight: "bold" }} className="m-1">{transcript}</p>
                         <div className="row">
-                            <div className="col"><audio key={index} src={data.original[index]} controls /></div>
-                            <div className="col"><audio key={index} src={data.hifi[index]} controls /></div>
-                            <div className="col"><audio key={index} src={data.waveglow[index]} controls /></div>
+                            <div className="col"><audio src={data.original[index]} controls /></div>
+                            <div className="col"><audio src={data.hifi[index]} controls /></div>
+                            <div className="col"><audio src={data.waveglow[index]} controls /></div>
                         </div>
                     </div>
                 )

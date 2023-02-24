@@ -27,13 +27,13 @@ const SoligaPaths = {
         "/assets/Soliga/waveglow/4198w.wav"
     ],
     transcript: [
-        "2185	ನೀವುಗ ಏವ  ದಿನವ್ವೆ ಏಳಿಕೆಯಾಗ ಕಾಫಿಯ ಕುಡಿದಿರಾ?",
-        "4195	ನಾ ಅದವ  ಮರ್ತಾಗೆ ತೋರಿದ್ದೆ. ",
-        "2290	ಅವಳ ಮೆನೇಲಿ ಎಲ್ಲರುವೆ ಸೇರಿದದು ಬಾರಿ ಬಂಡಾಗಿತ್ತು.",
-        "4192	ನಾ ನೆನ್ನೆ ಇರುಳಾಗ ಎರೆಯ ನೋಡೀನೇ .",
-        "4197	ನಾ ಮಧ್ಯಕ ತಡೆ ಆಗಬಾರದು.",
-        "2277	ಅಪ್ಪ ಸಿಂಹೇ ತಿಂಡಿಯ ಹಣಕ ಎತ್ತುರವರೇ.",
-        "4198	ನಂಗ  ದೇನೋ ಕೆಟ್ಟ ನಾಥ ಬಂತು ."
+        "1.ನೀವುಗ ಏವ  ದಿನವ್ವೆ ಏಳಿಕೆಯಾಗ ಕಾಫಿಯ ಕುಡಿದಿರಾ?",
+        "2.ನಾ ಅದವ  ಮರ್ತಾಗೆ ತೋರಿದ್ದೆ. ",
+        "3.ಅವಳ ಮೆನೇಲಿ ಎಲ್ಲರುವೆ ಸೇರಿದದು ಬಾರಿ ಬಂಡಾಗಿತ್ತು.",
+        "4.ನಾ ನೆನ್ನೆ ಇರುಳಾಗ ಎರೆಯ ನೋಡೀನೇ .",
+        "5.ನಾ ಮಧ್ಯಕ ತಡೆ ಆಗಬಾರದು.",
+        "6.ಅಪ್ಪ ಸಿಂಹೇ ತಿಂಡಿಯ ಹಣಕ ಎತ್ತುರವರೇ.",
+        "7.ನಂಗ  ದೇನೋ ಕೆಟ್ಟ ನಾಥ ಬಂತು ."
     ]
 }
 
@@ -49,9 +49,10 @@ const LambaniPaths = {
         "/assets/Lambani/hifi/8h.wav",
         "/assets/Lambani/hifi/9h.wav",
         "/assets/Lambani/hifi/10h.wav",
+        "/assets/Lambani/hifi/44h.wav",
         "/assets/Lambani/hifi/52h.wav",
         "/assets/Lambani/hifi/68h.wav",
-        "/assets/Lambani/hifi/143h.wav",
+        // "/assets/Lambani/hifi/143h.wav",
         "/assets/Lambani/hifi/147h.wav"
     ],
     original: [
@@ -65,9 +66,10 @@ const LambaniPaths = {
         "/assets/Lambani/original/8.wav",
         "/assets/Lambani/original/9.wav",
         "/assets/Lambani/original/10.wav",
+        "/assets/Lambani/original/44.wav",
         "/assets/Lambani/original/52.wav",
         "/assets/Lambani/original/68.wav",
-        "/assets/Lambani/original/143.wav",
+        // "/assets/Lambani/original/143.wav",
         "/assets/Lambani/original/147.wav"
     ],
     waveglow: [
@@ -81,9 +83,10 @@ const LambaniPaths = {
         "/assets/Lambani/waveglow/8w.wav",
         "/assets/Lambani/waveglow/9w.wav",
         "/assets/Lambani/waveglow/10w.wav",
+        "/assets/Lambani/waveglow/44w.wav",
         "/assets/Lambani/waveglow/52w.wav",
         "/assets/Lambani/waveglow/68w.wav",
-        "/assets/Lambani/waveglow/143w.wav",
+        // "/assets/Lambani/waveglow/143w.wav",
         "/assets/Lambani/waveglow/147w.wav"
     ],
     transcript: [
@@ -97,11 +100,11 @@ const LambaniPaths = {
         "8.ಏಕ ಲಾಂಬ ವಾಸಳಿ ರ ಲಕಡಿ ಪಡಿಚ.",
         "9.ಅಪಘಾತೆಮ ಘಣೋ ಲೋಯಿ ದರಗೋಚ.",
         "10.ಘಣೋ ಖಾಣೋ ಹಾಳ ವೇಗೋಚ.",
-        "44.ಬಾಂಬೆಮಾಯಿ ಗೀಲೋ ಹವಾಮಾನ ರಚ ಪಣ ಡೆಲ್ಲಿ ಮಾಯಿ ಸುಕೋ ಹವಾಮಾನ ರಚ.",
-        "52.ವೋರ ಭೀಯಾ ಘರೇನ್ ಆಯೇರ ಆಂಗ ವೋರ ದೋಸ್ತ್ ದರಗೊತೋ.",
-        "68.ಮುಖ್ಯಸ್ಥ ಘಟನೇರ ಮೂಲ ಕಾರಣ ಕಾಯಿಚ್ ಕೆನ್ ಮಾಲಮ ಕರೆನ್ ಬಯಸರೊಚ್.",
-        "143.ಛೋರಿಯೋ ಅಂದೂರ ಹಾತೇಪರ ಮದರೇಂಗಿ ಲಗಾಡೇನ್ ಪಸಂದ ಪಡಚ.",
-        "147.ಪಿಯೇನ ಮನ ತಾತೋ ಚಾ ದೋ."
+        "11.ಬಾಂಬೆಮಾಯಿ ಗೀಲೋ ಹವಾಮಾನ ರಚ ಪಣ ಡೆಲ್ಲಿ ಮಾಯಿ ಸುಕೋ ಹವಾಮಾನ ರಚ.",
+        "12.ವೋರ ಭೀಯಾ ಘರೇನ್ ಆಯೇರ ಆಂಗ ವೋರ ದೋಸ್ತ್ ದರಗೊತೋ.",
+        "13.ಮುಖ್ಯಸ್ಥ ಘಟನೇರ ಮೂಲ ಕಾರಣ ಕಾಯಿಚ್ ಕೆನ್ ಮಾಲಮ ಕರೆನ್ ಬಯಸರೊಚ್.",
+        // "143.ಛೋರಿಯೋ ಅಂದೂರ ಹಾತೇಪರ ಮದರೇಂಗಿ ಲಗಾಡೇನ್ ಪಸಂದ ಪಡಚ.",
+        "14.ಪಿಯೇನ ಮನ ತಾತೋ ಚಾ ದೋ."
     ]
 }
 
