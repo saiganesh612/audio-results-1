@@ -8,7 +8,7 @@ const Transcript = ({ src }) => {
         <div className="mb-4">
             <div className="row my-3">
                 <div className="col"><h3>Original</h3></div>
-                <div className="col"><h3>hifi-Gan</h3></div>
+                <div className="col"><h3>HiFi-GAN</h3></div>
                 <div className="col"><h3>Waveglow</h3></div>
             </div>
             {
